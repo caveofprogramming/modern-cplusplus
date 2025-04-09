@@ -2,4 +2,7 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
+
 ./hello
+
+(On Windows, possibly .\Debug\hello)
