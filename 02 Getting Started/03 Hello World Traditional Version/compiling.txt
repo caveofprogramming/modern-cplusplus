@@ -1,0 +1,7 @@
+With g++:
+
+g++ -Wall main.cpp -o hello
+
+Run with 
+./hello on Unix-like systems
+hello on Windows
