@@ -1,0 +1,3 @@
+Choosing a compiler
+Choosing an editor
+CMake

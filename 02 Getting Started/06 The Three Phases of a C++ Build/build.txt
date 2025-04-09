@@ -1,0 +1,8 @@
+- The Preprocessor
+    g++ -E main.cpp
+- Compilation
+    g++ -c main.cpp
+- Building
+    g++ main.o -o main
+
+
