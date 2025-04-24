@@ -1,6 +1,8 @@
 With g++:
-
 g++ -Wall main.cpp -o hello
+
+With Visual Studio command line tools (use developer command prompt):
+cl /EHsc main.cpp
 
 Run with 
 ./hello on Unix-like systems
