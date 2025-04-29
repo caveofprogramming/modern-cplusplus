@@ -5,6 +5,7 @@ project(Declarations)
 
 # Add the executable
 add_executable(declare main.cpp)
+add_compile_options(-Wall -Wextra -Wpedantic)
 
 
 set(CMAKE_CXX_STANDARD 23)

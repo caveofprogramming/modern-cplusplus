@@ -1,3 +1,4 @@
+#include <iostream>
 
 int main() {
 
@@ -40,16 +41,18 @@ int main() {
     int value = 5;
     switch (value) {
         case 1: 
+            std::cout << "Case 1" << std::endl;
             break;
         case 2:
+            std::cout << "Case 2" << std::endl;
             break;
         default:
+            std::cout << "Default case" << std::endl;
     }
 
     // Goto
     goto label;
-
-    label:
+    label: int i = 0;
 
     // Also exception handling (but we'll cover this later)
     try {
