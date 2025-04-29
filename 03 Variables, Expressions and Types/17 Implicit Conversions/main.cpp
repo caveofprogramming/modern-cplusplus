@@ -9,7 +9,7 @@ int main() {
     // Narrowing conversion
     // This may cause a warning or error in some compilers
     float f_value = 3.14f;
-    int i_value = f_value;
+    i_value = f_value;
     std::cout << "i_value: " << i_value << std::endl;
 
     // Widening conversion
