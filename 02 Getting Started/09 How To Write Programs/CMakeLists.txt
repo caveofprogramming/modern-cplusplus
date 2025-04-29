@@ -1,10 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
+project(HowToWritePrograms)
 
-# Set project name
-project(HelloWorld)
-
-# Add the executable
-add_executable(hello main.cpp)
+add_executable(howtowriteprograms main.cpp)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

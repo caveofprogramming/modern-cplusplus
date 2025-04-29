@@ -12,8 +12,10 @@
 
 int main() {
     int temperature = 18;
-    bool is_cold = temperature < 20;
 
+    std::cout << (temperature == 18) << std::endl; 
+    
+    bool is_cold = temperature < 20;
     std::cout << "is_cold: " << is_cold << std::endl;
 
     // Comparing two floats with == is unreliable! Don't do it.
