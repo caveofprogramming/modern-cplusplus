@@ -14,7 +14,6 @@ int main() {
 
     Days day = MONDAY;
     
-
     std::cout << "Days: " << day << std::endl;
     std::cout << "MONDAY == 1: " << (TUESDAY == 1) << std::endl;
 

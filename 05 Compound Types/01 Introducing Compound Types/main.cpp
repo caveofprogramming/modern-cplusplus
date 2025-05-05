@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstdint>
 int main() {
+
+    // Note, we'll look at classes later.
     
     // Primitive arrays
     int values[] = {1, 2, 3, 4, 5};
